@@ -15,10 +15,10 @@ function App() {
         <Route path="" element={<Home />} />
         <Route path="/home/upload" element={<Upload />} />
         <Route path="/item/1" element={<Item />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile" element={<Profile />}/>
         <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/profile/edit-profile" element={<EditProfile />} />
-        <Route path="/faq" element={<Faq />} />
+        <Route path="/faq" element={<Faq />}/>
       </Route>
     </Routes>
   );
